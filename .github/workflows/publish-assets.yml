@@ -1,0 +1,40 @@
+name: Publish Token Assets
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Validate tokenlist.json
+        run: |
+          echo "Validating tokenlist.json..."
+          python3 -c "
+          import json, sys
+          with open('tokenlist.json') as f:
+            data = json.load(f)
+          tokens = data.get('tokens', [])
+          assert len(tokens) > 0, 'No tokens found'
+          for t in tokens:
+            assert 'address' in t, 'Missing address'
+            assert 'symbol' in t, 'Missing symbol'
+            assert 'logoURI' in t, 'Missing logoURI'
+          print(f'✅ tokenlist.json valid — {len(tokens)} token(s)')
+          "
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: \${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./
+          publish_branch: gh-pages
+          include_files: |
+            qtns-logo.png
+            tokenlist.json
+            assets/README.md

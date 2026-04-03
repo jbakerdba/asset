@@ -1,0 +1,32 @@
+{
+  "name": "QNTMENS Token List",
+  "logoURI": "https://raw.githubusercontent.com/QNTMENS/assets/main/qtns-logo.png",
+  "keywords": ["qntmens", "qtns", "stablecoin", "base", "defi", "giving"],
+  "timestamp": "2026-04-02T00:00:00.000Z",
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  },
+  "tokens": [
+    {
+      "chainId": 8453,
+      "address": "0x5E1DAa094aFA9E5E9B29682a65cfAe25e6bA8820",
+      "symbol": "QTNS",
+      "name": "QNTMENS Stablecoin",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/QNTMENS/assets/main/qtns-logo.png",
+      "logoURIFallback": "https://qntmens.com/qtns-logo.png",
+      "tags": ["stablecoin", "giving"],
+      "extensions": {
+        "bridgeInfo": {
+          "8453": {
+            "tokenAddress": "0x5E1DAa094aFA9E5E9B29682a65cfAe25e6bA8820"
+          }
+        },
+        "link": "https://qntmens.com",
+        "description": "QNTMENS Stablecoin — fixed price $1.78 USD, Base Mainnet. 75% of trading profits fund business startups, non-profits, and families in need."
+      }
+    }
+  ]
+}
