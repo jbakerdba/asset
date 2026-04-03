@@ -1,6 +1,6 @@
 {
   "name": "QNTMENS Token List",
-  "logoURI": "https://raw.githubusercontent.com/QNTMENS/assets/main/qtns-logo.png",
+  "logoURI": "https://raw.githubusercontent.com/jbakerDBA/asset/main/qtns-logo.png",
   "keywords": ["qntmens", "qtns", "stablecoin", "base", "defi", "giving"],
   "timestamp": "2026-04-02T00:00:00.000Z",
   "version": {
@@ -11,17 +11,17 @@
   "tokens": [
     {
       "chainId": 8453,
-      "address": "0x5E1DAa094aFA9E5E9B29682a65cfAe25e6bA8820",
+      "address": "0xCe67876c62Cf1ED829CE177c9463033e297540aC",
       "symbol": "QTNS",
       "name": "QNTMENS Stablecoin",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/QNTMENS/assets/main/qtns-logo.png",
+      "logoURI": "https://raw.githubusercontent.com/jbakerDBA/asset/main/qtns-logo.png",
       "logoURIFallback": "https://qntmens.com/qtns-logo.png",
       "tags": ["stablecoin", "giving"],
       "extensions": {
         "bridgeInfo": {
           "8453": {
-            "tokenAddress": "0x5E1DAa094aFA9E5E9B29682a65cfAe25e6bA8820"
+            "tokenAddress": "0xCe67876c62Cf1ED829CE177c9463033e297540aC"
           }
         },
         "link": "https://qntmens.com",
