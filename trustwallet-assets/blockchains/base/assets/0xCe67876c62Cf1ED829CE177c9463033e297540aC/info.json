@@ -1,0 +1,15 @@
+{
+  "name": "QNTMENS Stablecoin",
+  "symbol": "QTNS",
+  "type": "ERC20",
+  "decimals": 18,
+  "description": "QNTMENS (QTNS) is a USD-pegged stablecoin on Base Mainnet powering AI trading, mining payouts, and benevolence fund distributions.",
+  "website": "https://jbakerdba.github.io/asset/",
+  "explorer": "https://basescan.org/token/0xCe67876c62Cf1ED829CE177c9463033e297540aC",
+  "status": "active",
+  "links": [
+    { "name": "github", "url": "https://github.com/jbakerdba/asset" },
+    { "name": "email", "url": "mailto:jbaker@dvn40.com" }
+  ],
+  "tags": ["stablecoin"]
+}

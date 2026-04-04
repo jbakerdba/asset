@@ -1,0 +1,93 @@
+w CoinGecko Submission — Step by Step
+# Open this file, then follow each step on your screen
+
+=======================================================
+STEP 1 — Go to this URL in your browser:
+=======================================================
+
+  https://www.coingecko.com/request-form
+
+  You will see a form with a dropdown at the top.
+  Select: "New Cryptocurrency Listing"
+
+=======================================================
+STEP 2 — Fill in each field EXACTLY as shown below
+=======================================================
+
+  FIELD: "Coin/Token Name"
+  PASTE: QNTMENS Stablecoin
+
+  -------------------------------------------------------
+
+  FIELD: "Coin/Token Symbol / Ticker"
+  PASTE: QTNS
+
+  -------------------------------------------------------
+
+  FIELD: "Coin/Token Logo"
+  UPLOAD: C:\Users\Baker\Desktop\qtns-logo.png
+  (click the upload button, browse to your Desktop, pick qtns-logo.png)
+
+  -------------------------------------------------------
+
+  FIELD: "Network / Blockchain"
+  SELECT: Base  (scroll down in the dropdown, it's listed)
+
+  -------------------------------------------------------
+
+  FIELD: "Contract Address"
+  PASTE: 0xCe67876c62Cf1ED829CE177c9463033e297540aC
+
+  -------------------------------------------------------
+
+  FIELD: "Project Website"
+  PASTE: https://jbakerdba.github.io/asset/
+
+  -------------------------------------------------------
+
+  FIELD: "Whitepaper Link"  (if shown)
+  PASTE: https://jbakerdba.github.io/asset/
+
+  -------------------------------------------------------
+
+  FIELD: "Description"
+  PASTE THE TEXT BELOW (copy everything between the lines):
+  ----------------------------------------------------------
+  QNTMENS (QTNS) is a USD-pegged stablecoin on Base Mainnet
+  powering AI-driven trading, mining worker payouts, and a
+  benevolence giving fund. Every profitable trade allocates
+  75% to a charitable giving pool. QTNS is priced at $1.78
+  and backed by platform liquidity reserves.
+  ----------------------------------------------------------
+
+  -------------------------------------------------------
+
+  FIELD: "Source Code / GitHub"
+  PASTE: https://github.com/jbakerdba/asset
+
+  -------------------------------------------------------
+
+  FIELD: "Email Address"  (for correspondence)
+  PASTE: jbaker@dvn40.com
+
+  -------------------------------------------------------
+
+  FIELD: "Announcement / Community Link"  (optional, skip if not shown)
+  LEAVE BLANK
+
+  -------------------------------------------------------
+
+  FIELD: "Exchanges where token is listed"  (optional)
+  LEAVE BLANK  (or type: Uniswap v3 on Base)
+
+=======================================================
+STEP 3 — Submit
+=======================================================
+
+  Click the green "Submit" button at the bottom.
+  You will get a confirmation email at jbaker@dvn40.com.
+  Review takes 2-4 weeks.
+
+=======================================================
+THAT'S IT. Nothing else to do on CoinGecko.
+=======================================================

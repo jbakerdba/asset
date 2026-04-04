@@ -15,7 +15,7 @@ Public asset repository for the QNTMENS platform.
 |---|---|
 | Name | QNTMENS Stablecoin |
 | Symbol | QTNS |
-| Contract | `0x5E1DAa094aFA9E5E9B29682a65cfAe25e6bA8820` |
+| Contract | `0xCe67876c62Cf1ED829CE177c9463033e297540aC` |
 | Network | Base Mainnet (Chain 8453) |
 | Price | $1.78 USD (fixed) |
 | Decimals | 18 |
@@ -24,7 +24,7 @@ Public asset repository for the QNTMENS platform.
 
 1. Open MetaMask → **Import Token**
 2. Select **Custom Token**
-3. Paste contract: `0x5E1DAa094aFA9E5E9B29682a65cfAe25e6bA8820`
+3. Paste contract: `0xCe67876c62Cf1ED829CE177c9463033e297540aC`
 4. Network: **Base Mainnet**
 5. Symbol and decimals auto-fill → click **Add Token**
 
