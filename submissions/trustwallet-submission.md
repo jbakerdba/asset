@@ -11,7 +11,7 @@ The Trust Wallet assets repo expects this exact folder structure:
 blockchains/
   base/
     assets/
-      0xCe67876c62Cf1ED829CE177c9463033e297540aC/
+      0x57260B877149CD12405d05fc94d2cFf6cfCAA575/
         logo.png     ← must be named exactly "logo.png", 256x256 PNG
         info.json    ← token metadata
 ```
@@ -28,12 +28,14 @@ blockchains/
   "decimals": 18,
   "description": "QNTMENS (QTNS) is a USD-pegged stablecoin on Base Mainnet powering AI trading, mining payouts, and benevolence fund distributions.",
   "website": "https://jbakerdba.github.io/asset/",
-  "explorer": "https://basescan.org/token/0xCe67876c62Cf1ED829CE177c9463033e297540aC",
+  "explorer": "https://basescan.org/token/0x57260B877149CD12405d05fc94d2cFf6cfCAA575",
   "status": "active",
-  "id": "0xCe67876c62Cf1ED829CE177c9463033e297540aC",
+  "id": "0x57260B877149CD12405d05fc94d2cFf6cfCAA575",
   "links": [
-    { "name": "github", "url": "https://github.com/jbakerdba/asset" },
-    { "name": "email", "url": "mailto:jbaker@dvn40.com" }
+    { "name": "github",   "url": "https://github.com/jbakerdba/asset" },
+    { "name": "explorer", "url": "https://basescan.org/token/0x57260B877149CD12405d05fc94d2cFf6cfCAA575" },
+    { "name": "uniswap",  "url": "https://app.uniswap.org/swap?outputCurrency=0x57260B877149CD12405d05fc94d2cFf6cfCAA575&chain=base" },
+    { "name": "email",    "url": "mailto:jbaker@dvn40.com" }
   ],
   "tags": ["stablecoin"]
 }
@@ -48,24 +50,24 @@ blockchains/
 3. In your fork, navigate to:
    `blockchains/base/assets/`
 4. Create folder named exactly:
-   `0xCe67876c62Cf1ED829CE177c9463033e297540aC`
+   `0x57260B877149CD12405d05fc94d2cFf6cfCAA575`
 5. Upload two files into that folder:
-   - `logo.png` → use qtns-logo.png (rename it to logo.png)
-   - `info.json` → paste the JSON above
+   - `logo.png` → file is ready at: `trustwallet-assets/blockchains/base/assets/0x57260B877149CD12405d05fc94d2cFf6cfCAA575/logo.png`
+   - `info.json` → file is ready at: `trustwallet-assets/blockchains/base/assets/0x57260B877149CD12405d05fc94d2cFf6cfCAA575/info.json`
 6. Commit to your fork
 7. Click **"Contribute" → "Open Pull Request"**
 8. Title the PR:
-   `Add QTNS token (Base) - 0xCe67876c62Cf1ED829CE177c9463033e297540aC`
+   `Add QTNS token (Base) - 0x57260B877149CD12405d05fc94d2cFf6cfCAA575`
 
 ---
 
 ## Checklist Before Submitting PR
-- [ ] Folder name matches contract address exactly (checksum format)
-- [ ] logo.png is exactly 256x256 pixels
-- [ ] logo.png is under 100KB ✅ (77KB)
-- [ ] info.json is valid JSON (no trailing commas)
-- [ ] Contract address is checksummed (starts with 0x5E1DAa...)
-- [ ] Token is verified on BaseScan
+- [x] Folder name matches contract address exactly (checksum format)
+- [ ] logo.png is exactly 256x256 pixels ← verify with image editor
+- [x] logo.png is under 100KB
+- [x] info.json is valid JSON
+- [x] Contract is verified on BaseScan: https://basescan.org/address/0x57260B877149CD12405d05fc94d2cFf6cfCAA575#code
+- [x] Uniswap V3 pool live: 0x47e3249Da67a54D5Aed709B390E8CEFc39928fCA
 
 ---
 

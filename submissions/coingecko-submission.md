@@ -9,9 +9,9 @@
 **Token Symbol:** QTNS
 **Token Type:** Stablecoin
 **Blockchain Network:** Base (Base Mainnet)
-**Contract Address:** 0xCe67876c62Cf1ED829CE177c9463033e297540aC
+**Contract Address:** 0x57260B877149CD12405d05fc94d2cFf6cfCAA575
 **Decimals:** 18
-**Total Supply:** 500,000,000 QTNS
+**Total Supply:** 8,000,000 QTNS
 **Token Price (USD):** $1.78
 **Market Cap (USD):** $890,000,000
 
@@ -46,10 +46,10 @@ giving allocations on every profitable trade.
 
 ## Checklist Before Submitting
 - [ ] Logo is 256x256 PNG, under 100KB ✅ (77KB)
-- [ ] Contract is verified on BaseScan (https://basescan.org/address/0xCe67876c62Cf1ED829CE177c9463033e297540aC)
-- [ ] Token has on-chain liquidity on Uniswap v3 / Base DEX
+- [x] Contract is verified on BaseScan (https://basescan.org/address/0x57260B877149CD12405d05fc94d2cFf6cfCAA575)
+- [x] Token has on-chain liquidity on Uniswap v3 / Base DEX — Pool: 0x47e3249Da67a54D5Aed709B390E8CEFc39928fCA
 - [ ] Website is live and accessible
-- [ ] You have control of the contract address
+- [x] You have control of the contract address
 
 ---
 

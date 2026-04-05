@@ -36,7 +36,7 @@ STEP 2 — Fill in each field EXACTLY as shown below
   -------------------------------------------------------
 
   FIELD: "Contract Address"
-  PASTE: 0xCe67876c62Cf1ED829CE177c9463033e297540aC
+  PASTE: 0x57260B877149CD12405d05fc94d2cFf6cfCAA575
 
   -------------------------------------------------------
 
